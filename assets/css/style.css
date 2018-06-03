@@ -1,0 +1,312 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue", "BEBAS Neue", Helvetica,Arial,sans-serif;
+}
+
+.btn-input {
+   display: block;
+}
+
+.btn-input .btn.form-control {
+    text-align: left;
+}
+
+.btn-input .btn.form-control span:first-child {
+   left: 10px;
+   overflow: hidden;
+   position: absolute;
+   right: 25px;
+}
+
+.btn-input .btn.form-control .caret {
+   margin-top: -1px;
+   position: absolute;
+   right: 10px;
+   top: 50%;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bahan21.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+
+}
+.headerbanjir {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bahan21.jpeg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+
+}
+
+.header-signup h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+}
+.header-singup{
+    background-color: #2F2F30;
+    height: 60px;
+    width: 100%;
+}
+.wrap-singup{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -40px;
+    /* Pad bottom by footer height */
+    padding: 0 0 40px;
+    background-color: black;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+    position: center;
+    letter-spacing: 5px
+}
+
+.text-vertical-bottom p {
+    margin-top: 150px;
+    padding: 0;
+    font-size: 4.5em;
+    position: bottom;
+    letter-spacing: 5px
+}
+
+.btn{
+    margin-right: 10px;
+    margin-left: 14px;
+    font-size: 17px;
+}
+
+.btn1{
+    margin-right: 100px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+
+h3{
+    letter-spacing: 3px;
+}
+
+
+.header-login{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(../img/bahan21.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ 
+
+}
+
+.form-horizon{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#box
+{
+    background: rgba(200, 54, 54, 0.5);
+    box-shadow: 0 0 5px #999999;
+    color: black;
+    margin-top: 130px;
+    margin-left:250px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    height: auto;
+    width : 50%;
+    position: ;
+}
+
+.control-label{
+    color:white;
+    font-size: 15px;
+}
+#legend{
+    font-size: 40px;
+}
+.legend{
+    font-size: 40px;
+    position: 
+}
+
+.box {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    padding-top: auto;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.dropdown-menu>li
+{   position:relative;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+    cursor:pointer;
+}
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    display:none;
+    margin-top: -1px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-left-color:#fff;
+    box-shadow:none;
+}
+.right-caret:after,.left-caret:after
+ {  content:"";
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    display: inline-block;
+    height: 0;
+    vertical-align: middle;
+    width: 0;
+    margin-left:5px;
+}
+.right-caret:after
+{   border-left: 5px solid #ffaf46;
+}
+.left-caret:after
+{   border-right: 5px solid #ffaf46;
+}
+
+a:hover {
+color:#000;
+text-decoration: underline;
+} 
+
+.navbar-custom ul li a{
+    color:#fff !important;
+
+}
+
+.dropdown-custom {
+    background-color: #2C3E50 !important;
+}
+
+a {
+    font-size: 17px;
+}
+
+.navbar-default {
+    margin:0;
+    padding: 30px 0 30px 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #555;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-brand .fa {
+    color: #dd4a49;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #C5EFF7;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li {
+    padding: 0 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 5px;
+    color: #777;
+    font-weight: 500;
+    padding: 7px 14px;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #C5EFF7;
+    border-bottom: 1px solid #822a2a;
+    background-color: #dd4a49;
+}
+
+th{
+    font-family: verdana;
+    font-size: 15px;
+    
+}
+
+.panel-custom{
+   color: black;
+}
+
+.container-custom{
+    
+    padding-left: 300px;
+    width: 50%;
+    position: center;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url("http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format("woff2");
+}
